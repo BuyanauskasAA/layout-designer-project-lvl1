@@ -14,29 +14,38 @@
 @font-face {
   font-weight: normal;
   font-family: "Open Sans";
-  src: url(../../assets/fonts/OpenSans-Regular.ttf);
+  src: url("../../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: bold;
   font-family: "Open Sans";
-  src: url(../../assets/fonts/OpenSans-Bold.ttf);
+  src: url("../../assets/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-weight: normal;
   font-family: Neucha;
-  src: url(../../assets/fonts/Neucha-Regular.ttf);
+  src: url("../../assets/fonts/Neucha-Regular.ttf");
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
-  font: 16px/1.6em "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+
   color: var(--dark);
+  font: 16px/1.6em "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3 {
+  margin: 0;
+
   font-weight: normal;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
@@ -54,8 +63,98 @@ h3 {
   font-size: 34px;
 }
 
-section {
+.content-container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.content-container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -2;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.content-section {
+  position: relative;
+
   width: 1110px;
-  text-align: center;
+
   padding: 100px 0;
+}
+
+.text-section {
+  columns: 2;
+  column-gap: 30px;
+}
+
+.text-section p {
+  margin-top: 0;
+  break-inside: avoid;
+}
+
+.text-color-main {
+  color: var(--main);
+}
+
+.header-h1 {
+  width: 100%;
+  height: 470px;
+}
+
+.header-btn {
+  position: relative;
+  top: 40px;
+  left: 570px;
+
+  display: block;
+  width: 100px;
+  height: 25px;
+
+  padding: 12px 24px;
+
+  color: var(--white);
+
+  font-weight: bold;
+  font-family: inherit;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background: var(--main);
+
+  border: none;
+}
+
+.header-img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+
+  z-index: -1;
+
+  display: block;
+
+  height: 525px;
+}
+
+.h-914 {
+  height: 914px;
 }
