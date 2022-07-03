@@ -96,6 +96,9 @@ h3 {
   padding: 100px 0;
 }
 
+/*Header section*/
+/*Begin*/
+
 .text-section {
   margin-top: 201px;
 
@@ -106,10 +109,6 @@ h3 {
 .text-section p {
   margin-top: 0;
   break-inside: avoid;
-}
-
-.text-color-main {
-  color: var(--main);
 }
 
 .header-btn {
@@ -145,4 +144,48 @@ h3 {
   display: block;
 
   height: 525px;
+}
+
+/* End*/
+
+/*Video section*/
+/*Begin*/
+
+.bg-video-section {
+  background: var(--white);
+}
+
+.video-header {
+  position: relative;
+
+  height: 714px;
+  text-align: center;
+}
+
+.video {
+  position: absolute;
+  top: 229px;
+  right: 0;
+  left: 0;
+
+  margin: auto;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.video-footer {
+  width: 100%;
+  height: 100px;
+
+  background: var(--dark-main);
+}
+
+.mg-video {
+  margin: 27px 0 30px;
+}
+
+/*End*/
+
+.text-color-main {
+  color: var(--main);
 }
