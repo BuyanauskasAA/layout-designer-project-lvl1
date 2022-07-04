@@ -96,8 +96,7 @@ h3 {
   padding: 100px 0;
 }
 
-/*Header section*/
-/*Begin*/
+/** Header section **/
 
 .text-section {
   margin-top: 201px;
@@ -135,7 +134,7 @@ h3 {
 }
 
 .header-btn:hover {
-  background: #EA7600;
+  background: #ea7600;
 }
 
 .header-img {
@@ -150,15 +149,15 @@ h3 {
   height: 525px;
 }
 
-/* End*/
+/** Header Section End **/
 
-/*Video section*/
-/*Begin*/
+/** Video section **/
 
 .video-header {
   position: relative;
 
   height: 714px;
+
   text-align: center;
 }
 
@@ -168,11 +167,11 @@ h3 {
   right: 0;
   left: 0;
 
+  z-index: 10;
+
   margin: auto;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-
-  z-index: 10;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .mg-video {
@@ -183,15 +182,14 @@ h3 {
   padding-bottom: 0;
 }
 
-/*End*/
+/** Video Section End **/
 
-/*Navigation section*/
-/*Begin*/
+/** Navigation section **/
 
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .navigation-item {
@@ -213,6 +211,7 @@ h3 {
 
 .navigation-item:hover {
   color: var(--white);
+
   background: var(--main);
 }
 
@@ -222,8 +221,8 @@ h3 {
 
 .navigation-item-number {
   margin-bottom: 40px;
-  font: 64px/1 Neucha, sans-serif;
 
+  font: 64px/1 Neucha, sans-serif;
 }
 
 .navigation-header {
@@ -236,7 +235,7 @@ h3 {
   padding-top: 200px;
 }
 
-/*End*/
+/** Navigation Section End **/
 
 .text-color-main {
   color: var(--main);
