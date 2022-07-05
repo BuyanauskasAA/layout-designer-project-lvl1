@@ -1,6 +1,10 @@
-# layout-designer-project-lvl1-buyanauskas_aa
+# layout-designer-project-lvl1
 
+##Link to the project:
+
+```bash
 https://layout-designer-project-lvl1-buyanauskas_aa.surge.sh/
+```
 
 ## Setup
 
