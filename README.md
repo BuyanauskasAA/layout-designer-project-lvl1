@@ -2,6 +2,8 @@
 
 https://layout-designer-project-lvl1-buyanauskas_aa.surge.sh/
 
+https://buyanauskasaa.github.io/layout-designer-project-lvl1/
+
 ## Setup
 
 ```bash
