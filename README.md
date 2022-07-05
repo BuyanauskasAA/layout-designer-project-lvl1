@@ -1,5 +1,3 @@
-# layout-designer-project-lvl1
-
 ## Link to the project:
 
 https://layout-designer-project-lvl1-buyanauskas_aa.surge.sh/
