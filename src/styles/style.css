@@ -104,7 +104,7 @@ h3 {
 }
 
 .container-bg-dark {
-  background: var(--dark);
+  background: var(--dark-main);
 }
 
 .content-section {
