@@ -1,8 +1,6 @@
 ## Link to the project:
 
-https://layout-designer-project-lvl1-buyanauskas_aa.surge.sh/
-
-https://buyanauskasaa.github.io/layout-designer-project-lvl1/
+https://layout-designer-project-lvl1_buyanauskas_aa.surge.sh/
 
 ## Setup
 
