@@ -155,12 +155,12 @@ h3 {
 
   z-index: 0;
 
-  height: 430px;
+  height: 425px;
 }
 
 .header-section-img {
   position: absolute;
-  top: -55px;
+  top: -45px;
   right: -270px;
 
   z-index: -1;
