@@ -1,5 +1,6 @@
 const { src, dest, parallel, watch } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
+const prettyCss = require('gulp-cssbeautify');
 const pug = require('gulp-pug');
 const prettyHtml = require('gulp-pretty-html');
 const browserSync = require('browser-sync').create();
@@ -18,6 +19,7 @@ const buildSass = () => {
 
   return src('src/styles/scss/style.scss')
     .pipe(sass())
+    .pipe(prettyCss({ indent: '  ' }))
     .pipe(dest('src/styles/'))
     .pipe(browserSync.stream());
 };

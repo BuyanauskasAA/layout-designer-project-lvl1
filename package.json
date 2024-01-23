@@ -10,6 +10,7 @@
     "browser-sync": "^3.0.2",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
+    "gulp-cssbeautify": "^3.0.1",
     "gulp-pretty-html": "^2.0.10",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
