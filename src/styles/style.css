@@ -59,3 +59,14 @@
   flex: 0 1 1100px;
   padding: 100px 0;
 }
+
+.header {
+  position: relative;
+}
+
+.header__img {
+  position: absolute;
+  top: 55px;
+  right: -275px;
+  height: 525px;
+}
