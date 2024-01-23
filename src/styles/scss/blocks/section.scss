@@ -1,0 +1,30 @@
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+
+  &_bg-img-enable {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: top left / cover no-repeat url("../../../assets/images/background.png");
+      opacity: 0.1;
+      content: "";
+    }
+  }
+
+  @each $bg-name, $bg-value in $bg-colors {
+    &_bg_#{$bg-name} {
+      background-color: #{$bg-value};
+    }
+  }
+
+  &__container {
+    flex: 0 1 1100px;
+    padding: 100px 0;
+  }
+}

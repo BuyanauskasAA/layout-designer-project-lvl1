@@ -17,5 +17,45 @@
 }
 
 .page {
+  box-sizing: border-box;
   margin: 0;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.section_bg-img-enable::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: top left/cover no-repeat url("../../../assets/images/background.png");
+  opacity: 0.1;
+  content: "";
+}
+
+.section_bg_light {
+  background-color: #f5f4f0;
+}
+
+.section_bg_dark {
+  background-color: #42413c;
+}
+
+.section_bg_white {
+  background-color: #fff;
+}
+
+.section_bg_brown {
+  background-color: #b09a81;
+}
+
+.section__container {
+  flex: 0 1 1100px;
+  padding: 100px 0;
 }
