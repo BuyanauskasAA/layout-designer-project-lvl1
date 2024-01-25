@@ -109,3 +109,16 @@
 .header__btn {
   margin-top: 37px;
 }
+
+.columns {
+  display: flex;
+  gap: 30px;
+}
+
+.columns__inner {
+  width: 50%;
+}
+
+.columns__text {
+  margin-top: 0;
+}
