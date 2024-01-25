@@ -6,7 +6,19 @@ html(lang="ru")
     title Когнитивные искажения
     link(rel='stylesheet' href='../styles/style.css')
   body.page
-    header
+    header.section.section_bg_light.section_bg-img-enable
+      .header.section__inner
+        h1.header__title.title.title_size_lg
+          span.title__primary Когнитивные #[br] искажения #[br]
+          span.title__dark в программировании
+        img.header__img(src="../assets/images/main.png" alt="Нарисованный человечек сидит с ноутбуком на фоне вопросительных знаков")
+        .columns
+          .columns__inner
+            p.columns__text Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
+          .columns__inner
+            p.columns__text Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
+            p.columns__text Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+            a(href="#").header__btn.btn Подробнее
     main
     footer
 
