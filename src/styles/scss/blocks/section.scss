@@ -17,9 +17,9 @@
     }
   }
 
-  @each $bg-name, $bg-value in $bg-colors {
-    &_bg_#{$bg-name} {
-      background-color: #{$bg-value};
+  @each $color-name, $color-value in $bg-colors {
+    &_bg_#{$color-name} {
+      background-color: $color-value;
     }
   }
 
