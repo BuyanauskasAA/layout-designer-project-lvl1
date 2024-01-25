@@ -105,3 +105,7 @@
   z-index: 1;
   height: 525px;
 }
+
+.header__btn {
+  margin-top: 37px;
+}
