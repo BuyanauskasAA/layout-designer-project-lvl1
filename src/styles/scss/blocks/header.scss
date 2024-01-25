@@ -1,10 +1,17 @@
 .header {
   position: relative;
 
+  &__title {
+    position: relative;
+    z-index: 2;
+    margin: 8px 0 190px;
+  }
+
   &__img {
     position: absolute;
     top: 55px;
     right: -275px;
+    z-index: 1;
     height: 525px;
   }
 }

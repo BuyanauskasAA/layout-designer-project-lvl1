@@ -19,6 +19,7 @@
 .page {
   box-sizing: border-box;
   margin: 0;
+  font: 16px/1.6 "Open Sans", sans-serif;
 }
 
 .section {
@@ -91,9 +92,16 @@
   position: relative;
 }
 
+.header__title {
+  position: relative;
+  z-index: 2;
+  margin: 8px 0 190px;
+}
+
 .header__img {
   position: absolute;
   top: 55px;
   right: -275px;
+  z-index: 1;
   height: 525px;
 }
