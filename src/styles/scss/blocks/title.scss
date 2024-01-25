@@ -1,0 +1,17 @@
+.title {
+  margin: 0;
+  font-weight: normal;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+
+  @each $size-name, $size-value in $title-sizes {
+    &_size_#{$size-name} {
+      font-size: #{$size-value}px;
+    }
+  }
+  @each $color-name, $color-value in $title-colors {
+    &__#{$color-name} {
+      color: $color-value;
+    }
+  }
+}

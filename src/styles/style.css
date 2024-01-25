@@ -60,6 +60,33 @@
   padding: 100px 0;
 }
 
+.title {
+  margin: 0;
+  font-weight: normal;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+.title_size_l {
+  font-size: 72px;
+}
+
+.title_size_m {
+  font-size: 60px;
+}
+
+.title_size_s {
+  font-size: 34px;
+}
+
+.title__primary {
+  color: #fe8a02;
+}
+
+.title__dark {
+  color: #2a2626;
+}
+
 .header {
   position: relative;
 }
