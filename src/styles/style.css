@@ -56,7 +56,7 @@
   background-color: #b09a81;
 }
 
-.section__container {
+.section__inner {
   flex: 0 1 1100px;
   padding: 100px 0;
 }
@@ -68,15 +68,15 @@
   line-height: 1.2em;
 }
 
-.title_size_l {
+.title_size_lg {
   font-size: 72px;
 }
 
-.title_size_m {
+.title_size_md {
   font-size: 60px;
 }
 
-.title_size_s {
+.title_size_sm {
   font-size: 34px;
 }
 
