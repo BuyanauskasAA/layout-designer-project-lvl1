@@ -122,3 +122,19 @@
 .columns__text {
   margin-top: 0;
 }
+
+.btn {
+  display: block;
+  width: max-content;
+  padding: 13px 23px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fe8a02;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ea7600;
+}

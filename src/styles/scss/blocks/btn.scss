@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  width: max-content;
+  padding: 13px 23px;
+  color: $white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: $primary;
+  transition: background 0.3s;
+
+  &:hover {
+    background: $primary-hover;
+  }
+}
