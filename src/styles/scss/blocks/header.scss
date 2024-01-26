@@ -1,5 +1,9 @@
 .header {
-  position: relative;
+  overflow-x: hidden;
+
+  &__inner {
+    position: relative;
+  }
 
   &__title {
     position: relative;

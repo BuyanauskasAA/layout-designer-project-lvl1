@@ -26,7 +26,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 .section_bg-img-enable::before {
@@ -138,3 +137,30 @@
 .btn:hover {
   background: #ea7600;
 }
+
+.header {
+  overflow-x: hidden;
+}
+
+.header__inner {
+  position: relative;
+}
+
+.header__title {
+  position: relative;
+  z-index: 2;
+  margin: 8px 0 190px;
+}
+
+.header__img {
+  position: absolute;
+  top: 55px;
+  right: -275px;
+  z-index: 1;
+  height: 525px;
+}
+
+.header__btn {
+  margin-top: 38px;
+}
+
