@@ -82,6 +82,10 @@
 }
 
 .title_size_sm {
+  font-size: 52px;
+}
+
+.title_size_xs {
   font-size: 34px;
 }
 
