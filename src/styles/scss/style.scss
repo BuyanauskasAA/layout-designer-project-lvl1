@@ -1,8 +1,12 @@
 @import 'fonts';
 @import 'variables';
+
 @import 'blocks/page';
 @import 'blocks/section';
+@import 'blocks/section-divider';
 @import 'blocks/title';
-@import 'blocks/header';
 @import 'blocks/columns';
 @import 'blocks/btn';
+
+@import 'blocks/header';
+@import 'blocks/video-section';
