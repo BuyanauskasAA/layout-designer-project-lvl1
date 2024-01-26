@@ -1,0 +1,30 @@
+.video-section {
+  position: relative;
+
+  &__inner {
+    padding-bottom: 485px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__caption {
+    margin: 24px 0 27px;
+    text-align: center;
+  }
+
+  &__player {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -86px;
+    z-index: 1;
+    display: block;
+    width: 919px;
+    height: 569px;
+    margin: 0 auto;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  }
+
+}

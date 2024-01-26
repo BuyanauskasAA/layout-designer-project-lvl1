@@ -93,28 +93,6 @@
   color: #2a2626;
 }
 
-.header {
-  position: relative;
-}
-
-.header__title {
-  position: relative;
-  z-index: 2;
-  margin: 8px 0 190px;
-}
-
-.header__img {
-  position: absolute;
-  top: 55px;
-  right: -275px;
-  z-index: 1;
-  height: 525px;
-}
-
-.header__btn {
-  margin-top: 37px;
-}
-
 .columns {
   display: flex;
   gap: 30px;
@@ -170,3 +148,32 @@
   margin-top: 38px;
 }
 
+.video-section {
+  position: relative;
+}
+
+.video-section__inner {
+  padding-bottom: 485px;
+}
+
+.video-section__title {
+  text-align: center;
+}
+
+.video-section__caption {
+  margin: 24px 0 27px;
+  text-align: center;
+}
+
+.video-section__player {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -86px;
+  z-index: 1;
+  display: block;
+  width: 919px;
+  height: 569px;
+  margin: 0 auto;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
