@@ -93,6 +93,10 @@
   color: #2a2626;
 }
 
+.title__white {
+  color: #fff;
+}
+
 .columns {
   display: flex;
   gap: 30px;
