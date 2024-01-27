@@ -18,7 +18,7 @@ html(lang="ru")
           .columns__inner
             p.columns__text Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
             p.columns__text Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
-            a(href="#").header__btn.btn Подробнее
+            a(href="#navigation").header__btn.btn Подробнее
     main
       section.video-section.section.section_bg_white
         .video-section__inner.section__inner
@@ -27,7 +27,25 @@ html(lang="ru")
             span.title__primary когнитивные искажения?
           p.video-section__caption Что такое когнитивные искажения. Petrovna Channel
           iframe.video-section__player(src="https://www.youtube.com/embed/jie9AizBqss", frameborder="0", allowfullscreen)
-      .section-divider
+      section#navigation.nav-section.section.section_bg_dark
+        nav.nav-section__inner.section__inner
+          h3.title.title_size_sm
+            span.title__primary 5 когнитивных искажений #[br]
+            span.title__white о существовании которых стоит помнить
+
+          mixin nav-item(number, header, description)
+            a.nav-item
+              p.nav-item__number #{number}
+              h4.nav-item__title.title.title_size_xs
+                span.title__primary #{header}
+              p.nav-item__description #{description}
+
+          +nav-item("1", "Эффект ИКЕА", "Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.")
+          +nav-item("2", "Преждевременная оптимизация", "Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.")
+          +nav-item("3", "Искажение новизны", "Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.")
+          +nav-item("4", "Гиперболическое обесценивание", "Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.")
+          +nav-item("5", "Ошибка планирования", "Неправильно рассчитывать время необходимое для завершения задачи.")
+
     footer
 
 
