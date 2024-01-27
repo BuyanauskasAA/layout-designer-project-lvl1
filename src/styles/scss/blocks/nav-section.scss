@@ -1,0 +1,10 @@
+.nav-section {
+  padding-top: 100px;
+
+  &__inner {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 30px;
+  }
+}
