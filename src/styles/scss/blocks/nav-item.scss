@@ -1,0 +1,22 @@
+.nav-item {
+  padding: 24px;
+  background-color: $white;
+  cursor: pointer;
+
+  &__number {
+    margin: 0 0 40px;
+    color: $primary-dark;
+    font-weight: normal;
+    font-size: 64px;
+    font-family: Neucha, sans-serif;
+    line-height: 1;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    margin: 0;
+  }
+}

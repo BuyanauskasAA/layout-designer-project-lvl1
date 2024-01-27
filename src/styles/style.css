@@ -176,7 +176,6 @@
 .video-section__player {
   position: absolute;
   right: 0;
-  left: 0;
   bottom: -86px;
   left: 0;
   z-index: 1;
@@ -196,4 +195,27 @@
   grid-template-rows: repeat(2, max-content);
   grid-template-columns: repeat(3, 1fr);
   gap: 20px 30px;
+}
+
+.nav-item {
+  padding: 24px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nav-item__number {
+  margin: 0 0 40px;
+  color: #42413c;
+  font-weight: normal;
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
+}
+
+.nav-item__title {
+  margin-bottom: 16px;
+}
+
+.nav-item__description {
+  margin: 0;
 }
