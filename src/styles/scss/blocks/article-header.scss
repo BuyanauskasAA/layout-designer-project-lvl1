@@ -1,0 +1,38 @@
+.article-header {
+  display: flex;
+  gap: 30px;
+
+  &_right {
+    flex-direction: row;
+  }
+
+  &_left {
+    flex-direction: row-reverse;
+  }
+
+  &__img {
+    width: 578px;
+    height: 434px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    &::before {
+      display: block;
+      color: $dark-muted;
+      font-size: 24px;
+      line-height: 1.2;
+      content: "Когнитивные искажения";
+    }
+  }
+
+  &__description {
+    margin: 0;
+    color: $dark;
+    font-size: 34px;
+    font-family: Neucha, sans-serif;
+    line-height: 1.2;
+  }
+}

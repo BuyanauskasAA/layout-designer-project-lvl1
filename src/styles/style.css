@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-weight: normal;
   font-family: "Open Sans";
@@ -218,4 +220,43 @@
 
 .nav-item__description {
   margin: 0;
+}
+
+.article-header {
+  display: flex;
+  gap: 30px;
+}
+
+.article-header_right {
+  flex-direction: row;
+}
+
+.article-header_left {
+  flex-direction: row-reverse;
+}
+
+.article-header__img {
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.article-header__title {
+  margin-bottom: 30px;
+}
+
+.article-header__title::before {
+  display: block;
+  color: #908d8b;
+  font-size: 24px;
+  line-height: 1.2;
+  content: "Когнитивные искажения";
+}
+
+.article-header__description {
+  margin: 0;
+  color: #2a2626;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2;
 }
