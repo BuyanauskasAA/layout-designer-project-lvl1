@@ -222,30 +222,30 @@
   margin: 0;
 }
 
-.article-header {
+.article {
   display: flex;
   gap: 30px;
 }
 
-.article-header_right {
+.article_right {
   flex-direction: row;
 }
 
-.article-header_left {
+.article_left {
   flex-direction: row-reverse;
 }
 
-.article-header__img {
+.article__img {
   width: 578px;
   height: 434px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.article-header__title {
+.article__title {
   margin-bottom: 30px;
 }
 
-.article-header__title::before {
+.article__title::before {
   display: block;
   color: #908d8b;
   font-size: 24px;
@@ -253,7 +253,7 @@
   content: "Когнитивные искажения";
 }
 
-.article-header__description {
+.article__description {
   margin: 0;
   color: #2a2626;
   font-size: 34px;
