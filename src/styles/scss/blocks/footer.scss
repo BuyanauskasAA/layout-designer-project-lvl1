@@ -1,0 +1,39 @@
+.footer {
+  box-sizing: border-box;
+
+  &__inner {
+    display: flex;
+    margin-bottom: 76px;
+    padding: 0 55px;
+    background: $primary-dark;
+  }
+
+  &__title {
+    width: 50%;
+    padding: 55px 0;
+  }
+
+  &__form {
+    width: 50%;
+    padding: 38px 0 0 30px;
+  }
+
+  &__link {
+    color: $blue;
+  }
+
+  &__copyright {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+
+  }
+
+  &__text {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+  }
+}

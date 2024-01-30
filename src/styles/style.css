@@ -339,3 +339,42 @@
   background: #fff;
   color: #b09a81;
 }
+
+.footer {
+  box-sizing: border-box;
+}
+
+.footer__inner {
+  display: flex;
+  margin-bottom: 76px;
+  padding: 0 55px;
+  background: #42413c;
+}
+
+.footer__title {
+  width: 50%;
+  padding: 55px 0;
+}
+
+.footer__form {
+  width: 50%;
+  padding: 38px 0 0 30px;
+}
+
+.footer__link {
+  color: #1085c5;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.footer__text {
+  margin: 16px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
