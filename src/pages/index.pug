@@ -116,6 +116,24 @@ html(lang="ru")
             .columns__inner
               p.columns__text Это отлично выражается в старом афоризме:
               p.columns__text Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.
-    footer
-
-
+    footer.footer.section.section_bg_white
+      .section__inner
+        .footer__inner
+          h2.footer__title.title.title_size_xs
+            span.title__white Хотите узнать больше? #[br] Подпишитесь на обновления
+          form.form.footer__form
+            label.form__label(for="email") Электронная почта
+            .form__wrapper
+              input.form__input(type="email", id="email", name="email", placeholder="Ваша электронная почта")
+              btn.form__btn.btn(type="submit")
+            p.form__caption
+              | Подписываясь, вы принимаете
+              |
+              a.form__link(href="#") правила сервиса
+        p.footer__copyright &copy; #{new Date().getFullYear()} Антон Буянаускас
+        p.footer__text
+          | По материалам статьи
+          |
+          a.footer__link(href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b") Yash Ranadive Cognitive Biases in Programming
+        p.footer__text
+          a.footer__link(href="https://ru.hexlet.io/") Курсы программирования Hexlet
