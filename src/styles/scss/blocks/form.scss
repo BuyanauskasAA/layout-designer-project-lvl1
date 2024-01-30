@@ -1,0 +1,56 @@
+.form {
+  color: $white;
+
+  &__label {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__input {
+    display: block;
+    flex-grow: 1;
+    padding: 17px 0 18px 15px;
+    border: 0;
+
+    &::placeholder {
+      color: $placeholder;
+      font-weight: normal;
+      font-size: 13.1px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.6;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    width: 24px;
+    height: auto;
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      background: center / cover no-repeat url("../../../assets/images/send.svg");
+      transform: translate(-50%, -50%);
+      content: "";
+    }
+  }
+
+  &__caption {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  &__link {
+    color: inherit;
+  }
+}
